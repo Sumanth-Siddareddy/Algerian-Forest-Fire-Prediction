@@ -83,7 +83,7 @@ with st.form(key='prediction_form'):
 
     with col4:
         # Categorical input (mapped to float)
-        classes_str = st.selectbox('Classes', ('Not Fire', 'Fire'), help="Select the fire class")
+        classes_str = st.selectbox('Classes', (0, 1), help="Select 1 for fire class, 0 for not fire class")
         # Map string to float
         Classes = 0.0 if classes_str == 'Not Fire' else 1.0
         
