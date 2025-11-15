@@ -134,16 +134,3 @@ if submitted:
             st.error("Please check that your input data matches the model's requirements.")
     else:
         st.error("Models are not loaded. Please check file paths and errors above.")
-
-'''
-C:\Users\sidda\anaconda3\Lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
-  warnings.warn(
-forrtl: error (200): program aborting due to control-C event
-Image              PC                Routine            Line        Source
-
-libifcoremd.dll    00007FF82909DF54  Unknown               Unknown  Unknown
-KERNELBASE.dll     00007FF8E231C24D  Unknown               Unknown  Unknown
-KERNEL32.DLL       00007FF8E364E8D7  Unknown               Unknown  Unknown
-ntdll.dll          00007FF8E4C6C53C  Unknown               Unknown  Unknown
-
-'''
